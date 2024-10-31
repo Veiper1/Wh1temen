@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Платформа Онлайн Обучения</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Платформа Онлайн Обучения</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses" class="q1">Наши курсы</a></li>
+                <li><a href="#about" class="q1">О нас</a></li>
+                <li><a href="#contact" class="q1">Часто задаваемые &shy;вопросы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<div class="image-container1"><img id="image1" src="imagr0.gif"></div>
+
+    <section id="courses">
+        <h2><div class="w1">Наши Курсы</div></h2>
+
+        <div class="course">
+            <h3><div class="w2">
+            Основы онлайн-обучения:</div><br>
+            </h3>
+            <p>- Введение в онлайн-образование.<br>
+            - Преимущества и недостатки онлайн-курсов.<br>
+            - Методы и подходы к обучению.<br>
+            Хотите начать обучение
+        </p>
+             <button id="open-popup1" class="y2">Продолжить</button>
+
+<div class="overlay" id="overlay1"></div>
+<div class="popup" id="popup1">
+    <button id="close-popup1" class="y1">x</button>
+    <div class="t1">Регестрация на сайт</div>
+
+  <div class="t2">Name</div>
+
+    <input c="text" id="input1" placeholder="Напишите своё имя" style="width: 100%; height: 100px;">
+
+  <div class="t4">Email:</div>
+
+    <input type="text" id="input1" placeholder="Введите свой email" style="width: 100%; height: 30px;">
+
+  <div class="t6">Number:</div>
+
+    <input type="text" id="input1" placeholder="Введите свой номер"style="width: 80%; height: 30px;">
+
+    <button onclick="showAlert()" style="width:40%; height: 60px;font-size: 20px; margin-top: 10px;">Отправить</button>
+
+  <div id="notification"></div>
+
+</div>
+
+        </div>
+
+        <div class="course">
+            <h3><div class="w2">
+            Создание и управление онлайн-курсами:</div><br>
+            </h3>
+            <p>- Разработка учебных материалов.<br>
+            - Платформы для создания курсов (Udemy, Coursera и т.д.).<br>
+            - Внедрение технологий и инструментов обучения.<br>
+            Хотите начать обучение</p>
+            <button id="open-popup" class="y2">Продолжить</button>
+
+<div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <button id="close-popup" class="y1">x</button>
+    <div class="t1">Для продолжение учёбу пожайлуста зарегестрируйтесь</div>
+
+  <div class="t1">Name:</div> 
+<div class="input-container">
+    <input type="text1" id="input" placeholder="Напишите своё имя"></div>
+
+  <div class="t1">Email:</div>
+<div class="input-container">
+    <input type="text2" id="input" placeholder="Введите свой email"></div>
+
+  <div class="t1">Number:</div>
+<div class="input-container">
+    <input type="text3" id="input" placeholder="Введите свой номер"></div>
+
+<div style="display: flex; justify-content: center;">
+    <div class="button1">
+    <button onclick="showAlert()">Отправить</button></div>
+
+  <div id="notification"></div>
+
+</div>
+        </div>
+
+        <div class="course">
+            <h3><div class="w2">
+            Мотивация и вовлеченность учащихся <br> в онлайн-обучении:</div><br>
+            </h3>
+            <p>- Стратегии повышения мотивации студентов.<br>
+            - Использование геймификации в обучении.<br>
+            - Анализ успеваемости и обратной связи от студентов.<br>
+            Хотите начать обучение</p>
+            <button id="open-popup2" class="y2">Продолжить</button>
+
+<div class="overlay" id="overlay2"></div>
+<div class="popup" id="popup2">
+    <button id="close-popup2" class="y1">x</button>
+    <div class="t1">Регестрация на сайт</div>
+
+  <div class="t2">Name</div>
+
+    <input type="text1" id="input2" placeholder="Напишите своё имя" style="width: 100%; height: 30px;">
+
+  <div class="t4">Email:</div>
+
+    <input type="text2" id="input2" placeholder="Введите свой email" style="width: 100%; height: 30px;">
+
+  <div class="t6">Number:</div>
+
+    <input type="text3" id="input2" placeholder="Введите свой номер"style="width: 80%; height: 30px;">
+
+    <button onclick="showAlert()" style="width:40%; height: 60px;font-size: 20px; margin-top: 10px;">Отправить</button>
+
+  <div id="notification"></div>
+
+</div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="w3"><h2>О Нас</h2></div><br>
+
+        <div class="image-container">
+    <button onclick="prevImage()" class="b1 left"><</button>
+    <img id="image" src="image.jpg" alt="Изображение">
+    <button onclick="nextImage()" class="b1 right">></button>
+</div>
+
+        <p>- Наша миссия заключается в том, чтобы предоставить каждому возможность учиться<br> в удобное время и в любом месте. <br>- Мы верим, что знания и навыки имеют решающее значение для достижения успеха,<br> и наша платформа создана для того,<br> чтобы поддерживать вас на этом пути.
+            
+            <br><p><h2><div class="w2">Что мы предлагаем:</div></h2>
+<br><p>- Разнообразие курсов: У нас вы найдете курсы по самым различным темам <br>от программирования и дизайна до маркетинга и делового общения.
+
+<br><p>- Качественные материалы: Мы работаем с опытными преподавателями<br> и специалистами, чтобы создать высококачественные учебные материалы. 
+
+<br><p>- Интерактивное обучение: Мы стремимся сделать процесс<br> обучения увлекательным и интерактивным.
+
+<br><p>- Гибкость и доступность: Вы можете учиться в удобное для вас время<br> и в любом месте, используя любой компьютер или мобильное устройство. 
+
+<p><h2><div class="w2">Наши ценности:</div></h2>
+<p>- Доступность: Мы стремимся сделать обучение доступным для всех желающих,<br> независимо от возраста и уровня подготовки.
+<br>- Поддержка: Наша команда всегда готова помочь вам на каждом этапе обучения.<br> Мы ценим общение с нашими студентами и открыты к обратной связи.<br>
+- Качество: Мы неустанно работаем над улучшением наших курсов и платформы,<br> чтобы обеспечить вам лучший опыт обучения.</p>
+         </p>
+    </section>
+
+<h1><div class="w1">Видеолекции по программированию</div></h1>
+
+    <div class="container1">
+        
+        <div class="video-container">
+            <video id="videoPlayer" controls>
+                <source src="s1q1.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+            <div class="video-description">
+                <p>Краткое видeо  программирование</p>
+            </div>
+        </div>
+        <button id="playButton" class="w5">Запустить </button>
+    </div>
+
+    <div class="w1"><h1>Отзывы клиентов</h1></div>
+
+    <div class="review-container">
+        <img src=image.jpg class="r1">
+        <div class="review-author">Иван Петров</div>
+        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+        <div class="review-text">Онлайн-курсы – это мой способ учиться без стресса. Я смогла совмещать учёбу с работой.<br> К тому же, обратная связь от преподавателей была быстрой и конструктивной. Я уже записалась на следующий курс!</div>
+    </div>
+
+    <div class="review-container">
+        <img src=image1.jpg class="r1">
+        <div class="review-author">Мария Иванова</div>
+        <div class="review-rating">⭐⭐⭐⭐</div>
+        <div class="review-text">Сервис просто потрясающий! Отличные уроки и возможность общаться с другими студентами делают процесс<br> обучения интересным и увлекательным. Теперь я чувствую себя увереннее в своей профессии!</div>
+    </div>
+
+    <div class="review-container">
+        <img src=image2.jpg class="r1">
+        <div class="review-author">Александр Петров</div>
+        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+        <div class="review-text">Я прошел курс по программированию на Python, и он превзошел все мои ожидания! Инструкторы объясняли<br> материал очень доступно, а практические задания помогли закрепить знания. Рекомендую всем!</div>
+    </div>
+    <div class="review-container">
+        <img src=image3.jpg class="r1">
+        <div class="review-author">Алексей Сидоров</div>
+        <div class="review-rating">⭐⭐⭐</div>
+        <div class="review-text">"Курс неплохой, но хотелось бы больше примеров из практики. В целом, всё на уровне."</div>
+    </div>
+    <div class="review-container">
+        <img src=image4.jpg class="r1">
+        <div class="review-author">Ольга Николаева</div>
+        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+        <div class="review-text">"Превосходная платформа! Уроки информативные и вдохновляющие. Огромное спасибо команде за возможность учиться так удобно!"
+</div>
+    </div>
+     <h1><div class="w1">Добавить Отзыв</div></h1>
+    <div class="review-form">
+        <form id="reviewForm">
+            <div class="form-group">
+                <label for="author">Напишите ваше имя:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Рейтинг:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+            </div>
+            <div class="form-group">
+                <label for="review">Ваш отзыв:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Отправить Отзыв">
+            </div>
+        </form>
+    </div>
+
+
+
+    <section id="courses1">
+       <h3><div class="w1">Часто задаваемые вопросы</div></h3>
+       <div class="faq">
+       <details>
+        
+           <summary>Как я могу зарегистрироваться?</summary>
+           <p>Для регистрации на платформе, перейдите на странице регистрации, заполните требуемые поля,<br> такие как имя, адрес электронной почты и пароль. После этого нажмите кнопку "Зарегистрироваться".<br> Вам будет отправлено письмо для подтверждения адреса электронной почты..</p>
+       </details>
+   </div>
+   <div class="faq">
+    
+       <details>
+           <summary>Сколько стоит обучение на платформе</summary>
+           <p>Стоимость обучения зависит от курса.<br> У нас есть как бесплатные, так и платные курсы. Подробную информацию о ценах вы можете найти на странице каждого курса.</p>
+       </details>
+   </div>
+   <div class="faq">
+       <details>
+           <summary>Как долго длится курс?</summary>
+           <p>Длительность курса индивидуальна и может варьироваться от нескольких часов до нескольких недель,<br> в зависимости от содержания и структуры курса.</p>
+       </details>
+   </div>
+   <div class="faq">
+       <details>
+           <summary>Как я могу связаться с преподавателем</summary>
+           <p>Вы можете задать вопрос преподавателю через раздел комментариев на странице<br> курса или воспользоваться функцией "Сообщение преподавателю". Все сообщения будут отправлены напрямую.</p>
+       </details>
+   </div>
+    </section>
+    
+    
+    <div class="container">
+        <h1><div class="w4">Форум обсуждений</div></h1>
+        <div id="chat">
+            <div id="messages"></div>
+            <input type="text" id="messageInput" placeholder="Введите сообщение">
+            <div class="form-group">
+                <input type="submit"onclick="sendMessage()" value="Отправить Отзыв">
+            </div>
+        </div>
+    </div>
+
+
+    <section id="contact">
+        <h2><div class="">Контакты</div></h2>
+        <p>Email: info@learningplatform.com</p>
+        <p>Number: +7972853232</p>
+    </section>
+
+
+    <footer>
+        <p>© 2024 Платформа Онлайн Обучения</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
